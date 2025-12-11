@@ -1,13 +1,11 @@
-.App {
-  margin: 16px;
-
+.comment-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
 @media (max-width: 768px) {
-  .App {
+  .comment-list {
     gap: 16px;
   }
 }

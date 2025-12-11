@@ -1,0 +1,33 @@
+.reply-container {
+  max-width: 780px;
+  display: flex;
+}
+
+.reply-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.reply-line {
+  width: 4px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background-color: var(--grey-100);
+  margin: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .reply-container {
+    gap: 16px;
+  }
+
+  .reply-list {
+    gap: 16px;
+  }
+
+  .reply-line {
+    margin: 0;
+  }
+}

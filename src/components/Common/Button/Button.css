@@ -1,0 +1,21 @@
+.comment-button {
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  padding: 15px 30px;
+  background-color: var(--purple-600);
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--purple-200);
+  }
+}

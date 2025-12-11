@@ -1,0 +1,20 @@
+.card {
+  --card-padding: 25px;
+  --card-gap: 17px;
+  --border-radius: 10px;
+
+  background-color: var(--white);
+  padding: var(--card-padding);
+  border-radius: var(--border-radius);
+  max-width: 730px;
+
+  display: flex;
+  align-items: start;
+  gap: var(--card-gap);
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+}

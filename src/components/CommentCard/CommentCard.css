@@ -1,0 +1,42 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 18px;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+p {
+  margin: 0;
+  color: var(--grey-500);
+  font-weight: 500;
+}
+
+.replyingTo {
+  color: var(--purple-600);
+}
+
+.username {
+  color: var(--grey-800);
+  font-weight: 700;
+}
+
+.your-badge {
+  padding: 3px 7px;
+  border-radius: 3px;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--purple-600);
+}
